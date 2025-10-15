@@ -16,8 +16,8 @@ int main()
         Button({100.f, 400.f}, {200.f, 200.f})
     };
 
-    buttons[0].onclick = btn0_onclick; // <-- Звичайна функція
-    buttons[1].onclick = [](Button& btn) { // <-- Лямбда-вираз
+    buttons[0].onclick = btn0_onclick; // <-- Р—РІРёС‡Р°Р№РЅР° С„СѓРЅРєС†С–СЏ
+    buttons[1].onclick = [](Button& btn) { // <-- Р›СЏРјР±РґР°-РІРёСЂР°Р·
         btn.setFillColor(Color::Yellow);
         btn.setSize(btn.getSize() + Vector2f({ 10.f, 0.f }));
     };
@@ -29,12 +29,12 @@ int main()
         {
             if (event->is<sf::Event::Closed>())
                 window.close();
-            // Обробка натискання миші
+            // РћР±СЂРѕР±РєР° РЅР°С‚РёСЃРєР°РЅРЅСЏ РјРёС€С–
             if (event->is<sf::Event::MouseButtonPressed>())
             {
                 auto button = event->getIf<sf::Event::MouseButtonPressed>()->button;
                 auto position = (Vector2f)event->getIf<sf::Event::MouseButtonPressed>()->position;
-                // Якщо натиснуто ліву кнопку миші
+                // РЇРєС‰Рѕ РЅР°С‚РёСЃРЅСѓС‚Рѕ Р»С–РІСѓ РєРЅРѕРїРєСѓ РјРёС€С–
                 if (button == Mouse::Button::Left)
                 {
                     // for (auto button : buttons)
@@ -42,8 +42,8 @@ int main()
                     {
                         if (buttons[i].getGlobalBounds().contains(position))
                         {
-                            // Викликаємо метод onclick класу Button 
-                            // (для кожної кнопки буде свій)
+                            // Р’РёРєР»РёРєР°С”РјРѕ РјРµС‚РѕРґ onclick РєР»Р°СЃСѓ Button 
+                            // (РґР»СЏ РєРѕР¶РЅРѕС— РєРЅРѕРїРєРё Р±СѓРґРµ СЃРІС–Р№)
                             buttons[i].onclick(buttons[i]);
                         }
                     }
