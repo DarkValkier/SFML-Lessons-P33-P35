@@ -1,0 +1,22 @@
+Game started!
+Tasty World v1.0 2016
+ ===== GAME WORK START =====
+ CButtons > Added new button with index 0 ()!
+ CButtons > Added new button with index 1 ()!
+ CButtons > Added new button with index 2 ()!
+ CButtons > Button with index 1 has been clicked!
+ CButtons > Button with index -1 has been clicked!
+ CButtons > Button with index -1 has been clicked!
+ CButtons > Button with index 1 has been clicked!
+ CButtons > Button with index 1 has been clicked!
+ CButtons > Button with index 1 has been clicked!
+ CButtons > Button with index 1 has been clicked!
+ CButtons > Button with index 1 has been clicked!
+ CButtons > Button with index -1 has been clicked!
+ CButtons > Button with index -1 has been clicked!
+ CButtons > Button with index -1 has been clicked!
+ CButtons > Button with index 2 has been clicked!
+ ===== GAME WORK END =====
+Game has finished it`s work!
+ CGameMap (obj) > Removed 0 objects by AllRemover!
+ CButtons > Removed 3 buttons by AllRemover!

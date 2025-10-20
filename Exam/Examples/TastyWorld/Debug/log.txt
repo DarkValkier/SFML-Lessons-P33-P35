@@ -1,0 +1,19 @@
+Game started!
+Tasty World v1.0 2016
+ ===== GAME WORK START =====
+ CButtons > Added new button with index 0!
+ CButtons > Added new button with index 1!
+ CButtons > Added new button with index 2!
+ CButtons > Button with index 1 has been clicked!
+ SLButtons > Button with index -1 has been clicked!
+ CButtons > Added new button with index 0!
+ CButtons > Added new button with index 1!
+ CButtons > Button with index 0 has been clicked!
+ SLButtons > Button with index -1 has been clicked!
+ CButtons > Added new button with index 0!
+ CButtons > Added new button with index 1!
+ CButtons > Added new button with index 2!
+ CButtons > Button with index -1 has been clicked!
+ SLButtons > Button with index -1 has been clicked!
+ ===== GAME WORK END =====
+Game has finished it`s work!
